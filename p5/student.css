@@ -1,0 +1,59 @@
+students{
+    background-color: rgb(133, 190, 236);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(33, 3, 80);
+    font-size: 20px;
+}
+
+question{
+    display: block;
+    width: 70%;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+question h1{
+    display: block;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+name{
+    font-size: 22px;
+    color: rgb(2, 2, 71);
+    margin-left: 50px;
+}
+
+usn:before{
+    content: "USN : ";
+    font-weight: bold;
+}
+
+college:before{
+    content: "College : ";
+    font-weight: bold;
+}
+
+branch:before{
+    content: "Branch : ";
+    font-weight: bold;
+}
+
+yoj:before{
+    content: "Year of Joining : ";
+    font-weight: bold;
+}
+
+email:before{
+    content: "Email ID : ";
+    font-weight: bold;
+}
+
+usn, college, branch, yoj, email{
+    display: block;
+    margin-left: 150px;
+}

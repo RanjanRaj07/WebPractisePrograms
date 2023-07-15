@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="student.css"?>
+<students>
+    <question>
+        <h1>program5&#10;</h1>
+        <ques>&#10;#Question - Design an XML document to store information about a student in an engineering college
+        affiliated to VTU. The information must include USN, Name, and Name of the College,
+        Programme, Year of Joining, and email id. Make up sample data for 3 students. Create a CSS
+        style sheet and use it to display the document.&#10;&#10;
+        </ques>
+    </question>
+
+    <student>
+        <name>Ranjan G</name>
+        <usn>1SK20CS039</usn>
+        <college>Govt SKSJTI</college>
+        <branch>CSE</branch>
+        <yoj>2020</yoj>
+        <email>ranjangangadhar7102@gmail.com</email>
+    </student>
+    <student>
+        <name>Rakshitha AR</name>
+        <usn>1SK20CS038</usn>
+        <college>Govt SKSJTI</college>
+        <branch>CSE</branch>
+        <yoj>2020</yoj>
+        <email>rakshu19@gmail.com</email>
+    </student>
+    <student>
+        <name>Pallavi S</name>
+        <usn>1SK20CS030</usn>
+        <college>Govt SKSJTI</college>
+        <branch>CSE</branch>
+        <yoj>2020</yoj>
+        <email>pallav!20@gmail.com</email>
+    </student>
+
+</students>

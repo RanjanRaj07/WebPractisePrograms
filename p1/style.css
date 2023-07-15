@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #0a0a0a, #3a4452);
+    align-items: center;
+    justify-content: center;
+}
+.qus{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.qus h2{
+    margin: 0;
+    color: wheat;
+}
+.qus p{
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: whitesmoke;
+}
+
+
+.mac-box {
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    width: 700px;
+    height: 550px;
+    background-color: silver;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar{
+    height: 5%;
+    width: inherit;
+    background-color: rgb(153, 153, 240);
+    position: relative;
+    border-radius: 10px 10px 0 0;
+}
+
+.nav-bar #close{
+    margin-left: 8px;
+    size: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 0px;
+    background-color: red;
+}
+.nav-bar #min{
+    size: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 0px;
+    background-color:yellow;
+}
+.nav-bar #zoom{
+    size: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 0px;
+    background-color:green;
+}
+
+.nav-bar button:hover{
+    cursor: pointer;
+}
+
+.calci-area{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 240px;
+    height: 410px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 30px;
+    border-color: rgb(255, 0, 0);
+    border:  2px solid gray; 
+    margin-top: 20px; 
+    display: grid;  
+    grid-template-columns: repeat(4,70px);
+    box-shadow: inset -1px -1px 10px silver,
+                inset 3px 3px 10px silver;
+}
+
+input{
+    grid-column: span 4;
+    height: 50px;
+    border-radius: 15px;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(10,15,25);
+    border: none;
+    box-shadow: inset -5px -5px 12px rgb(20,25,35),
+                inset 5px 5px 12px rgb(30,35,45);
+    color: #ffff;
+    text-align: end;
+    font-size: 25px;
+}
+
+
+.calci-area button{
+    height: 45px;
+    width: 45px;
+    margin: auto;
+    border: none;
+    border-radius: 50%;
+    color: #ffff;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(10,15,25);
+    box-shadow: inset -5px -5px 12px rgb(20,25,35),
+                inset 5px 5px 12px rgb(30,35,45);
+}
+
+.calci-area button:hover{
+    cursor: pointer;
+}
+
+
+#btn-eq{
+    grid-row: span 2;
+    height: 90px;
+    /* border-radius: 40px; */
+    background-color: rgb(10,15,25);
+    border: none;
+    border-radius: 35px;
+    box-shadow: inset -5px -5px 12px rgb(20,25,35),
+                inset 5px 5px 12px rgb(30,35,45);
+    font-size: 20px;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div class="qus">
+        <h2>program 1</h2>
+        <p>#Question - write a JavaScript to design a simple calculator to perform the following operations: sum, product, difference and quotient</p>
+    </div>
+    <div class="mac-box">
+        <div class="nav-bar">
+            <button id="close"></button>
+            <button id="min"></button>
+            <button id="zoom"></button>
+        </div>
+        <div class="calci-area">
+            <input type="text" name="output" id="optext">
+            <!-- <input type="text" name="input" id="ipexp"> -->
+                <button onclick="display('+')">+</button>
+                <button onclick="display('-')">-</button>
+                <button onclick="display('*')">*</button>
+                <button onclick="display('/')"><i class="ri-divide-line"></i></button>
+                <button onclick="display('7')">7</button>
+                <button onclick="display('8')">8</button>
+                <button onclick="display('9')">9</button>
+                <button onclick="Clear()">C</i></button>
+                <button onclick="display('4')">4</button>
+                <button onclick="display('5')">5</button>
+                <button onclick="display('6')">6</button>
+                <button onclick="del()"><i class="ri-delete-back-2-fill"></i></button>
+                <button onclick="display('1')">1</button>
+                <button onclick="display('2')">2</button>
+                <button onclick="display('3')">3</button>
+                <button id="btn-eq" onclick="calculate()">=</button>
+                <button onclick="display('%')">%</button>
+                <button onclick="display('0')">0</button>
+                <button onclick="display('.')">.</button>
+        </div>
+        <p style="margin-left: 10px;font-weight: bold; font-style: italic;">~Ranjan Raj - 1SK20CS039</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

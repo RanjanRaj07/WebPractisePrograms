@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0;
+}
+
+.qus{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.qus h2{
+    margin: 0;
+}
+.qus p{
+    width: 70%;
+    position: relative;
+    margin: auto;
+}
+
+
+.text-area{
+    width: 60%;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    border: solid 2px rgb(1, 63, 11);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-area h1{
+    position: relative;
+    margin: auto;
+    margin-top: 20%;
+    color: red;
+}
+
+.myName p{
+    position : absolute;
+    margin-left: 300px;
+    font-weight: bold;
+    font-style: italic;
+}

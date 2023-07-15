@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.qus{
+    position: relative;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.qus h1{
+    margin: 5px;
+}
+.qus h4{
+    margin: 0px;
+}
+
+.display-area {
+    width: 70%;
+    height: 400px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    border: solid 2px green;
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: black;
+}
+

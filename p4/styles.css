@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0;
+}
+
+.qus{
+    width: 100%;
+    text-align: center;
+}
+.qus h2{
+    margin: 0;
+}
+
+.qus-area {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+
+.play-area{
+    position: relative;
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+    border: solid 2px rgb(207, 152, 1);
+    border-radius: 20px;
+}
+
+.play-area input{
+    width: 50%; 
+    height: 20%; 
+    position:relative; 
+    margin:10px; 
+    margin-left: 100px;
+}
+
+.play-area  button{
+    border: solid 1px greenyellow;
+    width: 150px;
+    margin-left: 100px;
+    height: 25px;
+    background: yellow;
+    border-radius: 7px;
+}
+
+.res-area{
+    width: 60%;
+    height: 30%;
+    /* border: solid 1px; */
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
